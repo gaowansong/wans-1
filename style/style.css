@@ -1,0 +1,157 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	background-color: #e0e0e0;
+	font-family: "Helvetica Neue", Helvetica, Aria, "Microsoft YaHei", sans-serif;
+}
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:22px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+	font-weight: 300;
+	background-color: #fff;
+	border-radius: 5px;
+	// box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+	padding: 36px;
+	box-sizing: border-box;
+	transition:box-shadow 1s;
+	-moz-transition:box-shadow 1s; /* Firefox 4 */
+	-webkit-transition:box-shadow 1s; /* Safari and Chrome */
+	-o-transition:box-shadow 1s; /* Opera */
+}
+@media only screen and (max-width: 1024px) {
+    .container {
+        width:100%;
+    }
+}
+.container:hover{
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
+}
+.container section{
+	// min-height: 150px;
+}
+aside{
+	color: #418ebb;
+	font-size: 22px;
+	vertical-align: middle;
+	padding-bottom: 10px;
+	border-bottom:2px solid #418ebb;
+}
+aside i{
+	margin-right: 10px;
+}
+.content{
+	margin: 15px 0;
+}
+.content:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.info li{
+	float: left;
+	margin-right: 30px;
+	line-height: 30px;
+}
+.post{
+	color: #418ebb;
+	clear: both;
+	margin-top: 7px;
+	font-size: 18px;
+}
+.company{
+	// font-size: 14px;
+	color: #418ebb;
+	margin-right: 20px;
+}
+.department{
+	font-weight: 400;
+}
+.p_head:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.p_head span{
+	float: left;
+}
+.p_content{
+	margin-top: 10px;
+	line-height: 26px;
+}
+.p_content ul li{
+	margin-top: 10px;
+	line-height: 26px;
+}
+.project_name{
+	font-weight: 500;
+	margin-right: 30px;
+}
+.project_list li:first-child{
+	list-style: none;
+	margin-left: 0px;
+}
+.project_list li{
+	margin-top: 3px !important;
+	// list-style: disc;
+	// margin-left: 20px;
+}
+.project_list .icon{
+	color: #418ebb;
+}
+.skill ul li{
+	line-height: 26px;
+	list-style: disc;
+	margin-left: 26px;
+}
+.award li{
+	float: left;
+	line-height: 28px;
+	margin-right: 100px;
+}
+
+
+.pdf{
+	background-color: #418ebb;
+	border-radius: 5px;
+	color: #fff;
+	padding: 5px 15px;
+	position: fixed;
+	bottom: 30px;
+	right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
